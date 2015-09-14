@@ -20,10 +20,10 @@
                                 <rect key="frame" x="-8" y="64" width="336" height="602"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mwz-AC-sgF" userLabel="QuestionContainer">
-                                <rect key="frame" x="10" y="127" width="300" height="300"/>
+                                <rect key="frame" x="10" y="99" width="300" height="300"/>
                                 <subviews>
                                     <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8yu-IB-cM3">
-                                        <rect key="frame" x="0.0" y="0.0" width="300" height="100"/>
+                                        <rect key="frame" x="0.0" y="16" width="300" height="100"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="300" id="4g9-1A-Bvm"/>
                                             <constraint firstAttribute="height" constant="100" id="ql1-nr-i25"/>
@@ -40,7 +40,7 @@
                                         <color key="highlightedColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     </label>
                                     <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T1h-tw-0pX">
-                                        <rect key="frame" x="0.0" y="100" width="300" height="100"/>
+                                        <rect key="frame" x="0.0" y="70" width="300" height="100"/>
                                         <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="100" id="FYj-d8-czr"/>
@@ -59,7 +59,7 @@
                                         <color key="highlightedColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     </label>
                                     <textField clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" text="First Name" borderStyle="roundedRect" placeholder="First Name" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="wrp-qW-dfT">
-                                        <rect key="frame" x="0.0" y="197" width="300" height="80"/>
+                                        <rect key="frame" x="0.0" y="157" width="300" height="80"/>
                                         <color key="backgroundColor" red="0.51016019570000004" green="0.51016019570000004" blue="0.51016019570000004" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="300" id="O0C-IR-IbJ"/>
@@ -73,12 +73,12 @@
                                 <constraints>
                                     <constraint firstAttribute="centerX" secondItem="T1h-tw-0pX" secondAttribute="centerX" id="6b5-wY-Ubc"/>
                                     <constraint firstAttribute="height" constant="300" id="BP6-LP-cea"/>
-                                    <constraint firstAttribute="centerY" secondItem="T1h-tw-0pX" secondAttribute="centerY" id="ECN-HU-fLk"/>
+                                    <constraint firstAttribute="centerY" secondItem="T1h-tw-0pX" secondAttribute="centerY" constant="30" id="ECN-HU-fLk"/>
                                     <constraint firstItem="8yu-IB-cM3" firstAttribute="leading" secondItem="mwz-AC-sgF" secondAttribute="leading" id="GYJ-vR-GV1"/>
                                     <constraint firstAttribute="trailing" secondItem="8yu-IB-cM3" secondAttribute="trailing" id="IPu-W1-81F"/>
                                     <constraint firstAttribute="width" constant="300" id="N8b-eX-ATt"/>
-                                    <constraint firstAttribute="bottom" secondItem="wrp-qW-dfT" secondAttribute="bottom" constant="23" id="O0y-zS-aXE"/>
-                                    <constraint firstItem="8yu-IB-cM3" firstAttribute="top" secondItem="mwz-AC-sgF" secondAttribute="top" id="OGl-0B-q46"/>
+                                    <constraint firstAttribute="bottom" secondItem="wrp-qW-dfT" secondAttribute="bottom" constant="63" id="O0y-zS-aXE"/>
+                                    <constraint firstItem="8yu-IB-cM3" firstAttribute="top" secondItem="mwz-AC-sgF" secondAttribute="top" constant="16" id="OGl-0B-q46"/>
                                     <constraint firstAttribute="trailing" secondItem="wrp-qW-dfT" secondAttribute="trailing" id="QSA-Lk-7kd"/>
                                     <constraint firstItem="wrp-qW-dfT" firstAttribute="leading" secondItem="mwz-AC-sgF" secondAttribute="leading" id="Rao-AA-CT4"/>
                                     <constraint firstAttribute="centerX" secondItem="wrp-qW-dfT" secondAttribute="centerX" id="bix-eW-txW"/>
@@ -86,11 +86,11 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eEW-84-wZA">
-                                <rect key="frame" x="145" y="419" width="30" height="33"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="frame" x="145" y="381" width="30" height="33"/>
+                                <color key="backgroundColor" red="0.51016019570000004" green="0.51016019570000004" blue="0.51016019570000004" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="16"/>
                                 <state key="normal" title="Go">
-                                    <color key="titleColor" red="0.00030041360830000002" green="0.00022154716760000001" blue="0.00092724116159999996" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.97254908084869385" green="0.99215692281723022" blue="0.97254908084869385" alpha="1" colorSpace="deviceRGB"/>
                                     <color key="titleShadowColor" red="0.97591145830000003" green="0.97591145830000003" blue="0.97591145830000003" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
@@ -102,9 +102,9 @@
                         <color key="tintColor" red="0.51016019570000004" green="0.51016019570000004" blue="0.51016019570000004" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="centerX" secondItem="mwz-AC-sgF" secondAttribute="centerX" id="2U4-pX-o3x"/>
-                            <constraint firstAttribute="centerY" secondItem="mwz-AC-sgF" secondAttribute="centerY" constant="7" id="BYQ-yJ-mn0"/>
+                            <constraint firstAttribute="centerY" secondItem="mwz-AC-sgF" secondAttribute="centerY" constant="35" id="BYQ-yJ-mn0"/>
                             <constraint firstAttribute="centerX" secondItem="eEW-84-wZA" secondAttribute="centerX" id="UNG-7U-7Ih"/>
-                            <constraint firstItem="eEW-84-wZA" firstAttribute="top" secondItem="mwz-AC-sgF" secondAttribute="bottom" constant="-8" id="a3r-9h-m2u"/>
+                            <constraint firstItem="eEW-84-wZA" firstAttribute="top" secondItem="mwz-AC-sgF" secondAttribute="bottom" constant="-18" id="a3r-9h-m2u"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="WxX-E8-f5Y"/>
@@ -144,7 +144,7 @@
                                 <attributedString key="attributedText">
                                     <fragment content="You Are">
                                         <attributes>
-                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="NSColor" red="0.2986702967" green="0.2986702967" blue="0.2986702967" alpha="1" colorSpace="calibratedRGB"/>
                                             <font key="NSFont" size="65" name="Chalkduster"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
                                         </attributes>
@@ -166,7 +166,7 @@
                                         <attributedString key="attributedText">
                                             <fragment content="Beautiful">
                                                 <attributes>
-                                                    <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="NSColor" red="0.2986702967" green="0.2986702967" blue="0.2986702967" alpha="1" colorSpace="calibratedRGB"/>
                                                     <font key="NSFont" size="40" name="Chalkduster"/>
                                                     <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural"/>
                                                 </attributes>
@@ -183,7 +183,7 @@
                                         <attributedString key="attributedText">
                                             <fragment content="Name">
                                                 <attributes>
-                                                    <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="NSColor" red="0.29867029671717171" green="0.29867029671717171" blue="0.29867029671717171" alpha="1" colorSpace="calibratedRGB"/>
                                                     <font key="NSFont" size="64" name="Chalkduster"/>
                                                     <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
                                                 </attributes>

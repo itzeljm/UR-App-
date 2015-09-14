@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>701A24F6-2B84-4C43-8F1E-440014F493D6</string>
+	<key>IDESourceControlProjectName</key>
+	<string>UR</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6C8A8E0C88CFC4E58FD5E476D349DC78CCAE0380</key>
+		<string>https://github.com/itzeljm/UR-App-.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>UR.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6C8A8E0C88CFC4E58FD5E476D349DC78CCAE0380</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/itzeljm/UR-App-.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6C8A8E0C88CFC4E58FD5E476D349DC78CCAE0380</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6C8A8E0C88CFC4E58FD5E476D349DC78CCAE0380</string>
+			<key>IDESourceControlWCCName</key>
+			<string>UR</string>
+		</dict>
+	</array>
+</dict>
+</plist>
